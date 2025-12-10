@@ -5,22 +5,16 @@ p, body {
 	font-size: 1.1rem;
 }
 h1, h2 {
-	font-family: "UnifrakturMaguntia", cursive;
+	font-family: "Source Sans 3", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
-h8, h9 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-}
-h3, h4, h5, h6, h7, h10 {
-    font-family: 'Josefin Sans', sans-serif;
+h3, h4, h5 {
+    font-family: 'Source Sans 3', sans-serif;
     font-weight: 400;
-    font-style: italic;
 }
 h1 {
 	font-size: 6.4rem;
-	text-transform: lowercase;
 }
 h2 {
 	font-size: 3.19rem;
@@ -31,82 +25,16 @@ h3 {
 h4 {
 	font-size: 1.5rem;
 }
-h8 {
-	font-size: 1.1rem;
-}
-h9 {
-	font-size: 0.9rem;
-}
-h10 {
-	font-size: 1.31rem;
-}
-.ornamentation p {
-	font-family: "UnifrakturMaguntia", cursive;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 3.4rem;
-}
-.ornamentation2 p {
-	font-family: "UnifrakturMaguntia", cursive;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 2.25rem;
-	text-transform: lowercase;
-}
-.ornamentation3 p {
-	font-family: "UnifrakturMaguntia", cursive;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 17vw;
-	text-align: center;
-}
-.notaheaderh2 p {
-	font-family: "UnifrakturMaguntia", cursive;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 4rem;
-}
-.notaheaderh3 p {
-	font-family: "UnifrakturMaguntia", cursive;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 3.19rem;
-}
-.notaheaderh5 p {
-	font-family: "UnifrakturMaguntia", cursive;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1.63rem;
-}
-.highlight p {
-	font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-	font-size: 1.5rem;
-}
-.midlight p {
-	font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-	font-size: 1.3rem;
-}
-.lowlight p {
-	font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-style: normal;
-	font-size: .9rem;
-}
 .navbar-brand {
-    font-family: "UnifrakturMaguntia", cursive;
+    font-family: "Source Sans 3", sans-serif;
 	font-weight: 400;
 	font-style: normal;
     font-size: 2.3rem;
     color: #ffffff !important;
 	text-decoration: none !important;
-	text-transform: lowercase !important;
 }
 .navbar-text {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     font-style: normal;
     font-size: 1.63rem;
 	color: #ffffff !important;
@@ -160,61 +88,20 @@ div.vspace3em {
 div.whitediv {
     background-color: #FFFAF0;
 }
-div.reddiv{
-	background-color: #EB4A67;
-}
-div.navydiv {
-	background-color:#0a2243;
-}
-div.orangediv{
-	background-color: #E3920D;
-}
-div.bluediv{
-	background-color: #133E79;
-}
-div.greendiv {
-	background-color: #377B67;
-}
 img {
     object-fit: contain;
     width: 100%;
     /*padding: 5% 2% 5% 2%;*/
 }
-img.img-fluid.quote {
-	max-width: 15%;
-	height: auto;
-}
-img.img-fluid.unquote {
-	max-width: 15%;
-	height: auto;
-	float: right;
-}
-/*img.img-case-study {
-    object-fit: contain;
-    width: 100%;
-    padding: 3% 2% 3% 2%;
-}*/
 footer {
     text-align: center;
 	background-color: #0a2243;
 	color: #FFFFFF;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Source Sans 3', sans-serif;
     font-weight: 300;
 }
 .footer p {
 	font-size: 1.1rem;
-}
-.footerhighlight p {
-	font-size: 2.25rem;
-	font-family: "UnifrakturMaguntia", cursive;
-	font-weight: 400;
-	font-style: normal;
-}
-#greentext {
-	color: #377B67;
-}
-#redtext{
-	color: #EB4A67;
 }
 #blacktext {
     color: #141A18;
@@ -225,27 +112,12 @@ footer {
 .whitetext {
 	color: #FFFFFF;
 }
-#navytext {
-	color:#0a2243;
-}
-#orangetext{
-	color: #E3920D;
-}
-#bluetext{
-	color: #133E79;
-}
-#creamtext{
-	color: #FFFAF0;
-}
 #navbartext {
 	color: #ffffff;
 }
-#lightestgraytext {
-	color: #FFFAF0;
-}
 .btn-primary, .btn-primary:visited {
     background-color: #0a2243 !important;
-	font-family: "UnifrakturMaguntia", cursive;
+	font-family: "Source Sans 3", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.63rem;
@@ -257,7 +129,7 @@ footer {
 }
 .btn-primary:hover, .btn-primary:active {
     background-color: #625079 !important;
-	font-family: "UnifrakturMaguntia", cursive;
+	font-family: "Source Sans 3", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.63rem;
@@ -290,32 +162,6 @@ a:hover {
   left: 10% !important;
   /*bottom: 10%;
   right: 10%;*/
-}
-.blockquote {
-    display: block;
-	border-radius: .01rem;
-	background-size: cover;
-	background: url(Images/blockquote-image.png)"
-}
-.blockquote h6 {
-	color: #E3920D;
-	text-align: right;
-	font-family: 'Josefin Sans', sans-serif;
-	font-style: normal;
-    font-weight: 300;
-	text-transform: uppercase;
-	font-size: 1.1rem; 
-	letter-spacing: 3px;
-	padding-top: 1rem;
-}
-.blockquote p{
-	color: #ffffff;
-	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-	font-size: 1.2rem;
-	padding: 3rem;
 }
 section {
 	padding: 0rem;
